@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/zaba/static/css/main.353ca5f6.css",
+    "main.js": "/zaba/static/js/main.6293f9f9.js",
+    "static/media/basic.jpg": "/zaba/static/media/basic.f4ad4bc49396ef4f6c9f.jpg",
+    "static/media/zaba.svg": "/zaba/static/media/zaba.7c05fcf981ccb1bbfa45ed5ca827e550.svg",
+    "static/media/cart.svg": "/zaba/static/media/cart.4fe0bc872dc277f5722b.svg",
+    "static/media/search.svg": "/zaba/static/media/search.e0dd8279ea3e3573c017.svg",
+    "index.html": "/zaba/index.html",
+    "static/media/plus.svg": "/zaba/static/media/plus.2a0ce7c1b6b9a223e036.svg",
+    "static/media/arrow-down.svg": "/zaba/static/media/arrow-down.f64508ab60cb1c7f6dcf.svg",
+    "main.353ca5f6.css.map": "/zaba/static/css/main.353ca5f6.css.map",
+    "main.6293f9f9.js.map": "/zaba/static/js/main.6293f9f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.353ca5f6.css",
+    "static/js/main.6293f9f9.js"
+  ]
+}

@@ -1,0 +1,52 @@
+.page-up {
+  width: 28px;
+  height: 28px;
+  background: #000;
+  cursor: pointer;
+  position: sticky;
+  margin-left: calc(100% + 22px);
+  bottom: 22px;
+  visibility: hidden;
+  opacity: 0;
+  user-select: none;
+  transition: 0.2s;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 47%;
+    background: #fff;
+    height: 7%;
+    top: 50%;
+    border-radius: 0px;
+  }
+  &::before {
+    right: 43%;
+    transform: translate(4%, -50%) rotate(-45deg);
+  }
+  &::after {
+    left: 43%;
+    transform: translate(-4%, -50%) rotate(45deg);
+  }
+  &.show {
+    visibility: visible;
+    opacity: 1;
+    user-select: auto;
+  }
+}
+
+@media (max-width: 1440px) {
+  .page-up {
+    margin-left: auto;
+    bottom: 30px;
+  }
+}
+
+@media (max-width: 650px) {
+  .page-up {
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    bottom: 15px;
+  }
+}
