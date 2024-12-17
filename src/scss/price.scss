@@ -1,0 +1,15 @@
+.price {
+  font-size: 36px;
+}
+
+@media (max-width: 900px) {
+  .price {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .price {
+    font-size: 26px;
+  }
+}

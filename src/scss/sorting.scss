@@ -1,0 +1,26 @@
+.sorting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  position: sticky;
+  top: 52px;
+  z-index: 999;
+  background: #fff;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+@media (max-width: 900px) {
+  .sorting {
+    top: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sorting {
+    gap: 20px;
+    top: 56px;
+    padding-bottom: 18px;
+  }
+}

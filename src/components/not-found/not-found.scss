@@ -1,0 +1,18 @@
+.not-found {
+  text-align: center;
+  font-family: "Urbanist";
+  height: calc(100vh - 300px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__img {
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .not-found__img {
+    max-width: 14vw;
+  }
+}

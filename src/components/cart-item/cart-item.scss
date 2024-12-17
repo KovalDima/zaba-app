@@ -1,0 +1,133 @@
+.cart__item {
+  border-top: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  gap: 30px;
+  .cart__clear {
+    visibility: hidden;
+    user-select: none;
+    opacity: 0;
+    pointer-events: none;
+  }
+  &:hover {
+    .cart__clear {
+      visibility: visible;
+      user-select: auto;
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+}
+
+.cart__item-inner {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.cart__item-img {
+  max-width: 160px;
+  height: 200px;
+}
+
+.cart__item-info {
+  max-width: 500px;
+}
+
+.cart__item-name {
+  margin-bottom: 32px;
+}
+.cart__item-quantity {
+  max-width: 138px;
+  font-family: "Urbanist";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.cart__item-minus {
+  width: 24px;
+  height: 24px;
+  background: url(../../assets/icons/minus.svg);
+}
+
+.cart__item-plus {
+  width: 24px;
+  height: 24px;
+  background: url(../../assets/icons/plus-black.svg);
+}
+
+.cart__item-price {
+  margin-bottom: 32px;
+  text-align: right;
+}
+
+.cart__item-details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  min-width: 231px;
+}
+
+.cart__item-color {
+  width: 20px;
+  height: 20px;
+  margin-left: 14px;
+}
+
+.cart__item-size {
+  font-family: "Urbanist";
+}
+
+@media (max-width: 1200px) {
+  .cart__item {
+    .cart__clear {
+      visibility: visible;
+      user-select: auto;
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .cart__item {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    padding-bottom: 20px;
+  }
+
+  .cart__item-inner {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .cart__item-name,
+  .cart__item-price {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .cart__item-img {
+    max-width: 130px;
+    height: 180px;
+  }
+
+  .cart__item-name {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 22px;
+  }
+
+  .cart__item-price {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,72 @@
+.cart__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.cart-quantity {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.cart__clear {
+  background: url(../assets/icons/bin.svg) left 2px center/24px no-repeat;
+  font-family: "Urbanist";
+  transition: 0.1s;
+  padding: 4px 6px 4px 34px;
+  border: 1px solid transparent;
+  &:hover {
+    border: 1px solid #000;
+  }
+}
+
+.cart__list {
+  margin-bottom: 125px;
+}
+
+.cart__footer {
+  padding: 45px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+}
+
+.cart__footer-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 60px;
+}
+
+@media (max-width: 992px) {
+  body:has(.empty-cart) {
+    .cart-quantity {
+      position: absolute;
+      right: 15px;
+      top: 35px;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .cart__footer-wrapper {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .cart-quantity {
+    font-size: 32px;
+  }
+
+  .cart__total {
+    font-size: 24px;
+  }
+
+  .cart__footer {
+    padding: 25px 0;
+  }
+}
