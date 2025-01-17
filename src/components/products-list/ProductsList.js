@@ -31,8 +31,6 @@ const ProductsList = () => {
   const { items, page, isMoreItems, loading, error, cache } =
     useSelector(selectProducts);
 
-  console.log(items);
-
   const cacheKey = `${activeCategory}_${sortBy}_${searchValue}`;
 
   useEffect(() => {
