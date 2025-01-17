@@ -4,7 +4,7 @@ import "./logo.scss";
 
 const Logo = () => {
   return (
-    <Link to="/" className="logo">
+    <Link to="/zaba-app" className="logo">
       <img className="logo__img" src={zabaLogo} alt="Zaba" />
     </Link>
   );

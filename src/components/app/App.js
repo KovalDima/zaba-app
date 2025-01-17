@@ -8,7 +8,7 @@ const App = () => {
     <div className="app">
       <div className="container">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/zaba-app" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

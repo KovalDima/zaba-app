@@ -3,7 +3,7 @@ import "./back.scss";
 
 const Back = () => {
   return (
-    <Link className="back-link" to="/">
+    <Link className="back-link" to="/zaba-app">
       Back
     </Link>
   );

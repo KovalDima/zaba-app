@@ -9,7 +9,7 @@ const CartEmpty = () => {
       <div className="empty-cart">
         <img className="empty-cart__img" src={noOrders} alt="" />
         <p className="empty-cart__text">You haven't added any clothes yet</p>
-        <Link to="/" className="btn">
+        <Link to="/zaba-app" className="btn">
           back to recomendations
         </Link>
       </div>
