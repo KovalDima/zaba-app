@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/zaba-app-site/static/css/main.025d31a4.css",
-    "main.js": "/zaba-app-site/static/js/main.3850397f.js",
-    "static/media/no-orders.svg": "/zaba-app-site/static/media/no-orders.a457a23f8bdc58419d9ac0bce336ca96.svg",
-    "static/media/zaba.svg": "/zaba-app-site/static/media/zaba.5c21ef9164367c325ea96b91213bb33a.svg",
-    "index.html": "/zaba-app-site/index.html",
-    "static/media/error-page.svg": "/zaba-app-site/static/media/error-page.2104d2e5228004ca85d5b8c77435d35c.svg",
-    "static/media/cart.svg": "/zaba-app-site/static/media/cart.e3a9bfa2aa57edb0764b.svg",
-    "static/media/search.svg": "/zaba-app-site/static/media/search.c53d3b3d158b7cf31320.svg",
-    "static/media/bin.svg": "/zaba-app-site/static/media/bin.7061066e7c7f111d4e9a.svg",
-    "static/media/arrow-back.svg": "/zaba-app-site/static/media/arrow-back.927c6e2102a31f6562b6.svg",
-    "static/media/plus.svg": "/zaba-app-site/static/media/plus.c5060b9a99c922e52950.svg",
-    "static/media/plus-black.svg": "/zaba-app-site/static/media/plus-black.56101d3c55a14e302cfb.svg",
-    "static/media/minus.svg": "/zaba-app-site/static/media/minus.02567717fa30c2f202ec.svg",
-    "static/media/arrow-down.svg": "/zaba-app-site/static/media/arrow-down.d5da6c272df1fae1756c.svg",
-    "static/media/sort.svg": "/zaba-app-site/static/media/sort.86f24628a80ea8daaaa3.svg",
-    "main.025d31a4.css.map": "/zaba-app-site/static/css/main.025d31a4.css.map",
-    "main.3850397f.js.map": "/zaba-app-site/static/js/main.3850397f.js.map"
+    "main.css": "/zaba-app/static/css/main.9b0ef51f.css",
+    "main.js": "/zaba-app/static/js/main.cc481ac5.js",
+    "static/media/no-orders.svg": "/zaba-app/static/media/no-orders.a457a23f8bdc58419d9ac0bce336ca96.svg",
+    "static/media/zaba.svg": "/zaba-app/static/media/zaba.5c21ef9164367c325ea96b91213bb33a.svg",
+    "index.html": "/zaba-app/index.html",
+    "static/media/error-page.svg": "/zaba-app/static/media/error-page.2104d2e5228004ca85d5b8c77435d35c.svg",
+    "static/media/cart.svg": "/zaba-app/static/media/cart.e3a9bfa2aa57edb0764b.svg",
+    "static/media/search.svg": "/zaba-app/static/media/search.c53d3b3d158b7cf31320.svg",
+    "static/media/bin.svg": "/zaba-app/static/media/bin.7061066e7c7f111d4e9a.svg",
+    "static/media/arrow-back.svg": "/zaba-app/static/media/arrow-back.927c6e2102a31f6562b6.svg",
+    "static/media/plus.svg": "/zaba-app/static/media/plus.c5060b9a99c922e52950.svg",
+    "static/media/plus-black.svg": "/zaba-app/static/media/plus-black.56101d3c55a14e302cfb.svg",
+    "static/media/minus.svg": "/zaba-app/static/media/minus.02567717fa30c2f202ec.svg",
+    "static/media/arrow-down.svg": "/zaba-app/static/media/arrow-down.d5da6c272df1fae1756c.svg",
+    "static/media/sort.svg": "/zaba-app/static/media/sort.86f24628a80ea8daaaa3.svg",
+    "main.9b0ef51f.css.map": "/zaba-app/static/css/main.9b0ef51f.css.map",
+    "main.cc481ac5.js.map": "/zaba-app/static/js/main.cc481ac5.js.map"
   },
   "entrypoints": [
-    "static/css/main.025d31a4.css",
-    "static/js/main.3850397f.js"
+    "static/css/main.9b0ef51f.css",
+    "static/js/main.cc481ac5.js"
   ]
 }
