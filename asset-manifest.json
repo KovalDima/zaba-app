@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zaba-app/static/css/main.9b0ef51f.css",
-    "main.js": "/zaba-app/static/js/main.cc481ac5.js",
+    "main.js": "/zaba-app/static/js/main.daca3126.js",
     "static/media/no-orders.svg": "/zaba-app/static/media/no-orders.a457a23f8bdc58419d9ac0bce336ca96.svg",
     "static/media/zaba.svg": "/zaba-app/static/media/zaba.5c21ef9164367c325ea96b91213bb33a.svg",
     "index.html": "/zaba-app/index.html",
@@ -16,10 +16,10 @@
     "static/media/arrow-down.svg": "/zaba-app/static/media/arrow-down.d5da6c272df1fae1756c.svg",
     "static/media/sort.svg": "/zaba-app/static/media/sort.86f24628a80ea8daaaa3.svg",
     "main.9b0ef51f.css.map": "/zaba-app/static/css/main.9b0ef51f.css.map",
-    "main.cc481ac5.js.map": "/zaba-app/static/js/main.cc481ac5.js.map"
+    "main.daca3126.js.map": "/zaba-app/static/js/main.daca3126.js.map"
   },
   "entrypoints": [
     "static/css/main.9b0ef51f.css",
-    "static/js/main.cc481ac5.js"
+    "static/js/main.daca3126.js"
   ]
 }
