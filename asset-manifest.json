@@ -1,7 +1,13 @@
 {
   "files": {
-    "main.css": "/zaba-app/static/css/main.9b0ef51f.css",
-    "main.js": "/zaba-app/static/js/main.daca3126.js",
+    "main.css": "/zaba-app/static/css/main.ef68728a.css",
+    "main.js": "/zaba-app/static/js/main.6f18b488.js",
+    "Home.css": "/zaba-app/static/css/Home.aec97be5.chunk.css",
+    "Home.js": "/zaba-app/static/js/Home.7859e6b0.chunk.js",
+    "Cart.css": "/zaba-app/static/css/Cart.2d525a10.chunk.css",
+    "Cart.js": "/zaba-app/static/js/Cart.a5be706f.chunk.js",
+    "NotFound.css": "/zaba-app/static/css/NotFound.bc1a448e.chunk.css",
+    "NotFound.js": "/zaba-app/static/js/NotFound.7e0f0eec.chunk.js",
     "static/media/no-orders.svg": "/zaba-app/static/media/no-orders.a457a23f8bdc58419d9ac0bce336ca96.svg",
     "static/media/zaba.svg": "/zaba-app/static/media/zaba.5c21ef9164367c325ea96b91213bb33a.svg",
     "index.html": "/zaba-app/index.html",
@@ -15,11 +21,17 @@
     "static/media/minus.svg": "/zaba-app/static/media/minus.02567717fa30c2f202ec.svg",
     "static/media/arrow-down.svg": "/zaba-app/static/media/arrow-down.d5da6c272df1fae1756c.svg",
     "static/media/sort.svg": "/zaba-app/static/media/sort.86f24628a80ea8daaaa3.svg",
-    "main.9b0ef51f.css.map": "/zaba-app/static/css/main.9b0ef51f.css.map",
-    "main.daca3126.js.map": "/zaba-app/static/js/main.daca3126.js.map"
+    "main.ef68728a.css.map": "/zaba-app/static/css/main.ef68728a.css.map",
+    "main.6f18b488.js.map": "/zaba-app/static/js/main.6f18b488.js.map",
+    "Home.aec97be5.chunk.css.map": "/zaba-app/static/css/Home.aec97be5.chunk.css.map",
+    "Home.7859e6b0.chunk.js.map": "/zaba-app/static/js/Home.7859e6b0.chunk.js.map",
+    "Cart.2d525a10.chunk.css.map": "/zaba-app/static/css/Cart.2d525a10.chunk.css.map",
+    "Cart.a5be706f.chunk.js.map": "/zaba-app/static/js/Cart.a5be706f.chunk.js.map",
+    "NotFound.bc1a448e.chunk.css.map": "/zaba-app/static/css/NotFound.bc1a448e.chunk.css.map",
+    "NotFound.7e0f0eec.chunk.js.map": "/zaba-app/static/js/NotFound.7e0f0eec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b0ef51f.css",
-    "static/js/main.daca3126.js"
+    "static/css/main.ef68728a.css",
+    "static/js/main.6f18b488.js"
   ]
 }
