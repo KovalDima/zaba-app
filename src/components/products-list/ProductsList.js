@@ -107,13 +107,17 @@ const ProductsList = () => {
         style={{ minHeight: `${items.length <= 3 ? "50vh" : ""}` }}
       >
         {loading ? (
-          <Preloader />
+          <li>
+            <Preloader />
+          </li>
         ) : error ? (
-          <Error message={error} />
+          <li>
+            <Error message={error} />
+          </li>
         ) : items.length ? (
           items.map((item) => <ProductItem {...item} key={item.id} />)
         ) : (
-          <p className="products__not-found">Not Found</p>
+          <li className="products__not-found">Not Found</li>
         )}
       </ul>
       {isMoreItems && (

@@ -16,6 +16,7 @@ const Header = () => {
         <Link
           to="/cart"
           className={`header__cart ${totalCount ? "filled" : ""}`}
+          title="Cart"
         >
           {totalCount ? (
             <span>

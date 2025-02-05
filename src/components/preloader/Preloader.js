@@ -1,7 +1,7 @@
 import "./preloader.scss";
 
-const Preloader = () => {
-  return <div className="preloader"></div>;
+const Preloader = ({ global = false }) => {
+  return <div className={`preloader ${global ? "global" : ""}`}></div>;
 };
 
 export default Preloader;
