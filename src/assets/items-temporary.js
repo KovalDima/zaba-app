@@ -387,6 +387,77 @@ const items = [
     colors: ["white", "lightgray", "dimgray"],
     sizes: ["XS", "S", "M", "L"],
     category: "women",
+    rating: 8,
+  },
+  //1 images from gh!
+  {
+    id: "prod-:rh:",
+    name: "TOP WITH AN ASYMMETRICAL COLLAR",
+    descr: "Viscose top with an asymmetrical top, long sleeves and gathers.",
+    images: {
+      black: [
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/white/t-shirt-1.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/white/t-shirt-2.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/white/t-shirt-3.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/white/t-shirt-4.jpeg",
+      ],
+      darkred: [
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/lightgray/t-shirt-1.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/lightgray/t-shirt-2.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/lightgray/t-shirt-3.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/lightgray/t-shirt-4.jpeg",
+      ],
+      darkgreen: [
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/dimgray/t-shirt-1.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/dimgray/t-shirt-2.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/dimgray/t-shirt-3.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/dimgray/t-shirt-4.jpeg",
+      ],
+    },
+    price: 19.5,
+    colors: ["black", "darkred", "darkgreen"],
+    sizes: ["XS", "M", "L", "XL"],
+    category: "women",
+    rating: 9,
+  },
+  //2 images from gh!
+  {
+    id: "prod-:ri:",
+    name: "POLO TOP INTERLOCK",
+    descr:
+      "Collar top made of soft stretchy knit fabric with an opaque compact weave. With short sleeves and a polo-style front button fastener.",
+    images: {
+      wheat: [
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/white/t-shirt-1.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/white/t-shirt-2.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/white/t-shirt-3.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/white/t-shirt-4.jpeg",
+      ],
+    },
+    price: 16,
+    colors: ["wheat"],
+    sizes: ["S", "M", "L"],
+    category: "women",
+    rating: 10,
+  },
+  //3 images from gh!
+  {
+    id: "prod-:rj:",
+    name: "BOILED DOUBLE-LAYER OVERSIZED T-SHIRT",
+    descr:
+      "Boiled cotton T-shirt with a round collar and drawstrings. Long sleeves with outer short sleeves.",
+    images: {
+      brown: [
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/white/t-shirt-1.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/white/t-shirt-2.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/white/t-shirt-3.jpeg",
+        "https://raw.githubusercontent.com/KovalDima/zaba-app/refs/heads/main/src/assets/images/t-shirts/t-shirt-17/white/t-shirt-4.jpeg",
+      ],
+    },
+    price: 32,
+    colors: ["brown"],
+    sizes: ["S", "M", "L"],
+    category: "women",
     rating: 10,
   },
 ];

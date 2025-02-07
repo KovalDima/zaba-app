@@ -32,6 +32,6 @@ const App = () => {
 
 export default App;
 
-// add woman clothes
-// compress images (tinypng)
-// SSR !!!
+// reload images
+// SSR ??
+// mistakes in projects video
