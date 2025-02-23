@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/zaba-app/static/css/main.ef68728a.css",
-    "main.js": "/zaba-app/static/js/main.ffa73521.js",
+    "main.js": "/zaba-app/static/js/main.964f7c6a.js",
     "Home.css": "/zaba-app/static/css/Home.4a060850.chunk.css",
-    "Home.js": "/zaba-app/static/js/Home.d191017e.chunk.js",
+    "Home.js": "/zaba-app/static/js/Home.fc655410.chunk.js",
     "Cart.css": "/zaba-app/static/css/Cart.2d525a10.chunk.css",
-    "Cart.js": "/zaba-app/static/js/Cart.6e9646d0.chunk.js",
+    "Cart.js": "/zaba-app/static/js/Cart.fb0a5b7d.chunk.js",
     "NotFound.css": "/zaba-app/static/css/NotFound.bc1a448e.chunk.css",
-    "NotFound.js": "/zaba-app/static/js/NotFound.75fbd6ff.chunk.js",
+    "NotFound.js": "/zaba-app/static/js/NotFound.654cd867.chunk.js",
     "static/media/no-orders.svg": "/zaba-app/static/media/no-orders.a457a23f8bdc58419d9ac0bce336ca96.svg",
     "static/media/zaba.svg": "/zaba-app/static/media/zaba.5c21ef9164367c325ea96b91213bb33a.svg",
     "index.html": "/zaba-app/index.html",
@@ -23,16 +23,16 @@
     "static/media/arrow-down.svg": "/zaba-app/static/media/arrow-down.d5da6c272df1fae1756c.svg",
     "static/media/sort.svg": "/zaba-app/static/media/sort.86f24628a80ea8daaaa3.svg",
     "main.ef68728a.css.map": "/zaba-app/static/css/main.ef68728a.css.map",
-    "main.ffa73521.js.map": "/zaba-app/static/js/main.ffa73521.js.map",
+    "main.964f7c6a.js.map": "/zaba-app/static/js/main.964f7c6a.js.map",
     "Home.4a060850.chunk.css.map": "/zaba-app/static/css/Home.4a060850.chunk.css.map",
-    "Home.d191017e.chunk.js.map": "/zaba-app/static/js/Home.d191017e.chunk.js.map",
+    "Home.fc655410.chunk.js.map": "/zaba-app/static/js/Home.fc655410.chunk.js.map",
     "Cart.2d525a10.chunk.css.map": "/zaba-app/static/css/Cart.2d525a10.chunk.css.map",
-    "Cart.6e9646d0.chunk.js.map": "/zaba-app/static/js/Cart.6e9646d0.chunk.js.map",
+    "Cart.fb0a5b7d.chunk.js.map": "/zaba-app/static/js/Cart.fb0a5b7d.chunk.js.map",
     "NotFound.bc1a448e.chunk.css.map": "/zaba-app/static/css/NotFound.bc1a448e.chunk.css.map",
-    "NotFound.75fbd6ff.chunk.js.map": "/zaba-app/static/js/NotFound.75fbd6ff.chunk.js.map"
+    "NotFound.654cd867.chunk.js.map": "/zaba-app/static/js/NotFound.654cd867.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef68728a.css",
-    "static/js/main.ffa73521.js"
+    "static/js/main.964f7c6a.js"
   ]
 }
