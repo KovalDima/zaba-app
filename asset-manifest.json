@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zaba-app/static/css/main.ef68728a.css",
-    "main.js": "/zaba-app/static/js/main.341b2295.js",
+    "main.js": "/zaba-app/static/js/main.ffa73521.js",
     "Home.css": "/zaba-app/static/css/Home.4a060850.chunk.css",
     "Home.js": "/zaba-app/static/js/Home.d191017e.chunk.js",
     "Cart.css": "/zaba-app/static/css/Cart.2d525a10.chunk.css",
@@ -23,7 +23,7 @@
     "static/media/arrow-down.svg": "/zaba-app/static/media/arrow-down.d5da6c272df1fae1756c.svg",
     "static/media/sort.svg": "/zaba-app/static/media/sort.86f24628a80ea8daaaa3.svg",
     "main.ef68728a.css.map": "/zaba-app/static/css/main.ef68728a.css.map",
-    "main.341b2295.js.map": "/zaba-app/static/js/main.341b2295.js.map",
+    "main.ffa73521.js.map": "/zaba-app/static/js/main.ffa73521.js.map",
     "Home.4a060850.chunk.css.map": "/zaba-app/static/css/Home.4a060850.chunk.css.map",
     "Home.d191017e.chunk.js.map": "/zaba-app/static/js/Home.d191017e.chunk.js.map",
     "Cart.2d525a10.chunk.css.map": "/zaba-app/static/css/Cart.2d525a10.chunk.css.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.ef68728a.css",
-    "static/js/main.341b2295.js"
+    "static/js/main.ffa73521.js"
   ]
 }
