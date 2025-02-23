@@ -31,7 +31,3 @@ const App = () => {
 };
 
 export default App;
-
-// routing work incorrect on githubpages
-// SSR ??
-// mistakes in projects video
