@@ -21,7 +21,7 @@ const App = () => {
         <Suspense fallback={<Preloader global={true} />}>
           <Routes>
             <Route path="/zaba-app" element={<Home />} />
-            <Route path="/cart" element={<Cart />} />
+            <Route path="/zaba-app/cart" element={<Cart />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
@@ -32,6 +32,6 @@ const App = () => {
 
 export default App;
 
-// reload images
+// routing work incorrect on githubpages
 // SSR ??
 // mistakes in projects video
