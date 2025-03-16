@@ -20,7 +20,7 @@ const App = () => {
       <div className="container">
         <Suspense fallback={<Preloader global={true} />}>
           <Routes>
-            <Route path="/zaba-app" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
@@ -32,5 +32,6 @@ const App = () => {
 
 export default App;
 
+// reload images
 // SSR ??
 // mistakes in projects video

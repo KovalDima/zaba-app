@@ -6,6 +6,34 @@
   z-index: 999;
 }
 
+.header__notification {
+  background: #247d05;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  font-family: "Urbanist";
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  user-select: none;
+  transition: 0.25s;
+  z-index: 99;
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+    user-select: auto;
+  }
+  span {
+    width: 24px;
+    height: 20px;
+    display: inline-block;
+    background: url(../../assets/icons/check.svg);
+  }
+}
+
 .header__wrapper {
   display: flex;
   justify-content: space-between;
@@ -35,7 +63,7 @@
       background: #000;
       display: block;
       text-wrap: nowrap;
-      padding: 5px 10px;
+      padding: 4px 10px;
       border-radius: 25px;
       color: #fff;
     }
@@ -51,6 +79,13 @@
     border: none;
     &.filled:hover {
       border: none;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .header__notification {
+    span {
+      height: 19px;
     }
   }
 }
