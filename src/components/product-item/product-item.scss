@@ -104,7 +104,10 @@
 .products-item__img {
   height: 500px;
   min-width: 100.1%;
-  transition: 0.3s;
+  transition: 0.3s transform;
+  &.hidden {
+    height: 0;
+  }
 }
 
 .products-item__inner {
@@ -191,7 +194,7 @@
   }
 
   .products-item__img {
-    transition: 0.4s;
+    transition: 0.4s transform;
   }
 }
 

@@ -3,13 +3,15 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
   async (params, { rejectWithValue }) => {
+    const apiUrl = "https://66dd6f1af7bcc0bbdcde184c.mockapi.io/zaba-api";
     let { page = 1, category = "", sortBy = "", searchValue = "" } = params;
+
     category = category === "all" ? "" : category;
     sortBy = sortBy || "";
 
     try {
       const response = await fetch(
-        `https://66dd6f1af7bcc0bbdcde184c.mockapi.io/zaba-api/t-shirts?category=${category}&sortBy=${sortBy}&name=${searchValue}&page=${page}&limit=6`
+        `${apiUrl}/t-shirts?category=${category}&sortBy=${sortBy}&name=${searchValue}&page=${page}&limit=6`
       );
       const data = await response.json();
       if (data === "Not found") {

@@ -48,6 +48,7 @@ const ProductItem = ({ name, price, sizes, colors, images, id }) => {
   const onSelectColor = (i) => {
     setActiveSlide(0);
     setActiveColor(i);
+    setImgLoaded(false);
   };
 
   return (
@@ -61,7 +62,7 @@ const ProductItem = ({ name, price, sizes, colors, images, id }) => {
             <img
               key={url}
               width="400px"
-              className="products-item__img"
+              className={`products-item__img ${!imgLoaded ? "hidden" : ""}`}
               style={{ transform: `translateX(-${activeSlide * 100}%)` }}
               src={url}
               alt={name}

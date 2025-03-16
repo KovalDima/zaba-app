@@ -32,6 +32,5 @@ const App = () => {
 
 export default App;
 
-// reload images
 // SSR ??
 // mistakes in projects video
