@@ -23,11 +23,13 @@ const CartItem = ({ id, name, price, image, size, color, count }) => {
             <button
               onClick={() => onChangeItemCount(-1, -price)}
               className="cart__item-minus"
+              title="Decrease product"
             ></button>
             <span>{count}</span>
             <button
               onClick={() => onChangeItemCount(1, price)}
               className="cart__item-plus"
+              title="Increase product"
             ></button>
           </div>
         </div>
